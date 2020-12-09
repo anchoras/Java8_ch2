@@ -14,5 +14,6 @@ class LiteralsDemo {
         System.out.printf("b in octo is: %o", b);   System.out.println();
         System.out.println("c from decimal to decimal is: " + c);
         System.out.println("d from hex to decimal is: " + d);  
+        System.out.println("\u5666");
     }
 }
