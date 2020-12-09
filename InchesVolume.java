@@ -6,10 +6,12 @@ class InchesVolume {
         System.out.println("There are " + ci + " cubic inches in 1 cubic mile");
         */
         double x, y, z;
-        x = 3;
+        x = 3.1;
         y = 4;
         z = Math.sqrt(x*x + y*y);
 
+        System.out.println(x);
+        System.out.println(y);
         System.out.println("Length of Hypotenuse is " + z);
     }
 }
