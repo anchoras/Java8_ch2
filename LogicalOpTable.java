@@ -3,7 +3,7 @@
     table of logical interactions in Java
 */
 
-class LogicakOpTable {
+class LogicalOpTable {
     public static void main(String args[]) {
         boolean p, q;
         int pANDq, pORq, pXORq, NOp, pi, qi;
