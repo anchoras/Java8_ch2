@@ -6,31 +6,184 @@
 class LogicakOpTable {
     public static void main(String args[]) {
         boolean p, q;
+        int pANDq, pORq, pXORq, NOp, pi, qi;
 
         System.out.println("P\tQ\tAND\tOR\tXOR\tNOT");
 
         p = true;
         q = true;
-        System.out.print(p + "\t" + q + "\t");
-        System.out.print((p&q) + "\t" + (p|q) + "\t");
-        System.out.println((p^q) + "\t" + (!p));
+        if (true) {
+            if (q) {
+                qi = 1;
+            }
+            else {
+                qi = 0;
+            }
+
+            if (p&q) {
+                pANDq = 1;
+            }
+            else {
+                pANDq = 0;
+            }
+           
+            if (p|q) {
+                pORq = 1;
+            }
+            else {
+                pORq = 0;
+            }
+            
+            if (p^q) {
+                pXORq = 1;
+            }
+            else {
+                pXORq = 0;
+            }
+
+            if (!p) {
+                NOp = 1;
+                pi = 0;
+            }
+            else {
+                NOp = 0;
+                pi = 1;
+            }
+        }
+        System.out.print(pi + "\t" + qi + "\t");
+        System.out.print(pANDq + "\t" + pORq + "\t");
+        System.out.println(pXORq + "\t" + NOp);
 
         p = true;
         q = false;
-        System.out.print(p + "\t" + q + "\t");
-        System.out.print((p&q) + "\t" + (p|q) + "\t");
-        System.out.println((p^q) + "\t" + (!p));
+        if (true) {
+            if (q) {
+                qi = 1;
+            }
+            else {
+                qi = 0;
+            }
+
+            if (p&q) {
+                pANDq = 1;
+            }
+            else {
+                pANDq = 0;
+            }
+           
+            if (p|q) {
+                pORq = 1;
+            }
+            else {
+                pORq = 0;
+            }
+            
+            if (p^q) {
+                pXORq = 1;
+            }
+            else {
+                pXORq = 0;
+            }
+
+            if (!p) {
+                NOp = 1;
+                pi = 0;
+            }
+            else {
+                NOp = 0;
+                pi = 1;
+            }
+        }
+        System.out.print(pi + "\t" + qi + "\t");
+        System.out.print(pANDq + "\t" + pORq + "\t");
+        System.out.println(pXORq + "\t" + NOp);
 
         p = false;
         q = true;
-        System.out.print(p + "\t" + q + "\t");
-        System.out.print((p&q) + "\t" + (p|q) + "\t");
-        System.out.println((p^q) + "\t" + (!p));
+        if (true) {
+            if (q) {
+                qi = 1;
+            }
+            else {
+                qi = 0;
+            }
+
+            if (p&q) {
+                pANDq = 1;
+            }
+            else {
+                pANDq = 0;
+            }
+           
+            if (p|q) {
+                pORq = 1;
+            }
+            else {
+                pORq = 0;
+            }
+            
+            if (p^q) {
+                pXORq = 1;
+            }
+            else {
+                pXORq = 0;
+            }
+
+            if (!p) {
+                NOp = 1;
+                pi = 0;
+            }
+            else {
+                NOp = 0;
+                pi = 1;
+            }
+        }
+        System.out.print(pi + "\t" + qi + "\t");
+        System.out.print(pANDq + "\t" + pORq + "\t");
+        System.out.println(pXORq + "\t" + NOp);
 
         p = false;
         q = false;
-        System.out.print(p + "\t" + q + "\t");
-        System.out.print((p&q) + "\t" + (p|q) + "\t");
-        System.out.println((p^q) + "\t" + (!p));
+        if (true) {
+            if (q) {
+                qi = 1;
+            }
+            else {
+                qi = 0;
+            }
+
+            if (p&q) {
+                pANDq = 1;
+            }
+            else {
+                pANDq = 0;
+            }
+           
+            if (p|q) {
+                pORq = 1;
+            }
+            else {
+                pORq = 0;
+            }
+            
+            if (p^q) {
+                pXORq = 1;
+            }
+            else {
+                pXORq = 0;
+            }
+
+            if (!p) {
+                NOp = 1;
+                pi = 0;
+            }
+            else {
+                NOp = 0;
+                pi = 1;
+            }
+        }
+        System.out.print(pi + "\t" + qi + "\t");
+        System.out.print(pANDq + "\t" + pORq + "\t");
+        System.out.println(pXORq + "\t" + NOp);
     }
 }
